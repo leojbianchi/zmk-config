@@ -74,7 +74,7 @@
 // RGB and Misc Layer
                         bindings = <
     &reset      &debug    &trans    &trans    &trans            &trans       &trans   &trans   &trans   &trans   &trans     &trans
-    &trans      &trans    &trans    &trans    &to default_layer &trans       &trans   &trans   &trans   &trans   &trans     &trans
+    &trans      &trans    &trans    &trans    &trans            &trans       &trans   &trans   &trans   &trans   &trans     &trans
     &trans      &trans    &trans    &trans    &to colemak       &trans       &trans   &trans   &trans   &trans   &trans     &trans
                     &trans    &trans    &trans    &trans   &trans     &trans
                         >;
