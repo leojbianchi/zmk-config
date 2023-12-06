@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <macros.dtsi>
 
 / {
     keymap {
@@ -73,8 +74,8 @@
             // RGB and Misc Layer
             bindings = <
                 &reset      &debug    &trans    &trans    &trans    &trans       &rgb TOG &rgb HUI &rgb SAI &rgb VAI &to layer0 &trans
-                &rgb MOD    &rgb HUD  &rgb SAD  &rgb VAD  &to layer1 &trans       &trans   &trans   &trans   &trans   &trans     &trans
-                &trans      &trans    &trans    &trans    &trans    &trans       &trans   &trans   &trans   &trans   &trans     &trans
+                &rgb MOD    &rgb HUD  &rgb SAD  &rgb VAD  &to default_layer &trans       &trans   &trans   &trans   &trans   &trans     &trans
+                &trans      &trans    &trans    &trans    &to colemak       &trans       &trans   &trans   &trans   &trans   &trans     &trans
                                 &trans    &trans    &trans    &trans   &trans     &trans
             >;
         };
