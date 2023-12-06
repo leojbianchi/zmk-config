@@ -31,7 +31,7 @@
             bindings = <
                 &kp TAB &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SCLN &kp BSPC
                 &mt MOD_LCTL ESC &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O   &kp QUOT
-                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp MINS &mt LSHFT RET
+                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp MINS &kp LSHFT
                                 &mo 5 &kp RET &mo 2   &mo 3 &kp SPACE &kp RALT
             >;
         };
