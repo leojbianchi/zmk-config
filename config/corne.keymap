@@ -84,9 +84,9 @@
 // -----------------------------------------------------------------------------------------
 // Adjust Layer
                         bindings = <
-    &trans    &trans    &trans    &trans    &trans       &trans    &trans   &trans   &trans &trans    &trans &trans
-    &trans    &kp VOLU  &kp UP    &kp VOLD  &kp PGUP      &trans    &trans   &kp RGHT &kp DOWN &kp LEFT &kp PGDN &trans
-    &trans    &trans    &kp MPLY  &kp MUTE  &kp MSTP      &kp SLEP  &kp SPACE &trans &trans   &trans   &trans &trans
+    &trans    &trans    &trans    &trans    &trans         &trans    &trans    &trans   &trans    &trans    &trans   &trans
+    &trans    &kp VOLU  &kp UP    &kp VOLD  &kp PGUP       &trans    &trans    &trans   &trans    &trans  &trans   &trans
+    &trans    &trans    &kp MPLY  &kp MUTE  &kp MSTP       &kp SLEP  &kp SPACE &trans   &trans    &trans    &trans   &trans
                     &trans    &kp ENT   &trans    &trans   &trans     &trans
                         >;
                 };
