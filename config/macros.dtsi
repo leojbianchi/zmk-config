@@ -11,8 +11,17 @@
                 &kp LALT
                 &kp N6
                 &kp N4
-                &kr LALT  // Suelta la tecla Left Alt
+                &k LALT  // Suelta la tecla Left Alt
             >;
+        };
+
+        keymap {
+            compatible = "zmk,keymap";
+            label = "Default Keymap";
+
+            macros {
+                macro0: <&macro0>;
+            };
         };
     };
 };
