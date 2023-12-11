@@ -9,8 +9,8 @@
             tap-ms = <50>;
             bindings = <
                 &kp LALT
-                &kpr N6
-                &kpr N4
+                &kp N6
+                &kp N4
                 &kr LALT  // Suelta la tecla Left Alt
             >;
         };
